@@ -1,0 +1,202 @@
+/**
+*
+* Author: Thyago França
+* Version: 1.0
+*
+**/
+* {
+	padding: 0;
+	margin-top: 0;
+	box-sizing: border-box;
+}
+.row:before,
+.row:after {
+	display: none!important;
+}
+html, body {
+    width: 100%;
+    min-height: 100vh;
+    font-family: 'Roboto', sans-serif;
+    background-color: #f3f3f3;
+}
+#primary {
+    width: 100%;
+    max-width: 1024px;
+    padding: 30px 30px;
+    margin: 0 auto;
+    border: 1px solid #191919;
+    box-shadow: 10px 10px 15px #191919;
+    background-color: #F5F5F5;
+    transform: translate(0%, 10%);
+}
+@keyframes blink {
+    0% { opacity: 0.2; }
+    50% { opacity: 1; }
+    100% { opacity: 0.2; }
+}
+#primary .screen {
+    width: 100%;
+    height: 380px;
+    border: 2px solid #191919;
+    position: relative;
+    background-image: linear-gradient(to right, #e8e8e8, #c1c1c1);
+}
+#primary .screen .end {
+    font-size: 100px;
+    font-weight: bold;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#primary .screen .wid-1 {
+    display: flex;
+    flex: 1;
+}
+#primary .screen .wid-1 .info-left {
+    width: 80%;
+    flex: 1;
+    padding-left: 10px;
+}
+#primary .screen .wid-1 .info-left header {
+    padding: 20px 0;
+}
+#primary .screen .wid-1 .info-left header span {
+    font-size: 17px;
+}
+#primary .screen .wid-1 .info-left .candidato .title {
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+}
+#primary .screen .wid-1 .info-left .fields {
+    display: flex!important;
+    align-items: center;
+    margin-top: 10px;
+}
+#primary .screen .wid-1 .info-left .fields .num {
+    font-size: 21px;
+    width: 40px;
+    height: 40px;
+    font-weight: bold;
+    line-height: 38px;
+    text-align: center;
+    margin: 0px 2px 0px 2px;
+    border: 1px solid #191919;
+}
+#primary .screen .blink {
+    animation: blink 1s linear infinite;
+}
+#primary .screen .wid-1 .info-left .description {
+    padding-top: 20px;
+}
+#primary .screen .wid-1 .info-left .description span {
+    font-size: 17px;
+    font-weight: normal;
+    display: block;
+}
+#primary .screen .wid-1 .info-left .description .nulo {
+    font-size: 40px;
+    font-weight: bold;
+    display: block;
+    text-align: center;
+}
+#primary .screen .wid-1 .sidebar {
+    width: 20%;
+    height: auto;
+}
+#primary .screen .wid-1 .sidebar .card {
+    background-color: transparent;
+}
+#primary .screen .wid-1 .sidebar .card.vice {
+    width: 100px;
+    height: auto;
+    float: right;
+}
+#primary .screen .wid-1 .sidebar .card .card-img-top {
+    width: 90px;
+    height: auto;
+    text-align: center;
+    margin: 0 auto;
+}
+#primary .screen .wid-1 .sidebar .card .small {
+    width: 70px;
+    height: auto;
+    text-align: center;
+    margin: 0 auto;
+}
+#primary .screen .wid-1 .sidebar .card .card-body {
+    padding: 5px 5px;
+    background-color: #fff;
+}
+#primary .screen .wid-1 .sidebar .card .card-body .card-title {
+    font-size: 15px;
+    text-align: center;
+}
+#primary .screen .wid-1 .sidebar .card .card-body .card-title-vice {
+    font-size: 12px;
+    text-align: center;
+}
+#primary .screen .wid-2 {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 5px 0;
+    border-top: 1px solid #191919;
+}
+#primary .screen .wid-2 .desc {
+    font-size: 15px;
+    padding-left: 10px;
+}
+#primary .keyboard {
+    padding: 20px 5px 20px 5px;
+    background-color: #191919;
+}
+#primary .keyboard .line {
+    text-align: center;
+    padding: 10px 0;
+}
+#primary .keyboard .line .btn {
+    font-size: 25px;
+    color: #fff;
+    text-align: left;
+    width: 65px;
+    height: 50px;
+    line-height: normal;
+    background-color: #090909;
+    box-shadow: 5px 5px 5px #000;
+    margin: 0 5px;
+}
+#primary .keyboard .line-action {
+    text-align: center;
+    padding-top: 15px;
+}
+#primary .keyboard .line-action .btn-white {
+    font-size: 15px;
+    color: #000;
+    padding: 13px 5px;
+    margin: 0 5px;
+    font-weight: bold;
+    vertical-align: bottom;
+    background-color: #fff;
+}
+#primary .keyboard .line-action .btn-orange {
+    font-size: 15px;
+    color: #000;
+    font-weight: bold;
+    padding: 13px 5px;
+    margin: 0 5px;
+    vertical-align: bottom;
+    background-color: #f09046;
+}
+#primary .keyboard .line-action .btn-green {
+    font-size: 15px;
+    color: #000;
+    font-weight: bold;
+    margin: 0 5px;
+    padding: 17px 5px;
+    vertical-align: bottom;
+    background-color: #48c079;
+}
+
