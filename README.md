@@ -10,3 +10,8 @@
 <p>O projeto segue o processo de VOTO <strong>EM BRANCO, VOTO NULO</strong>, com a etapas de votação em <strong>VEREADOR</strong> e <strong>PREFEITO.</strong></p>
 
 <p>Também adaptei o barulho das teclas e de conclusão de voto, para exemplificar, gravei um vídeo curto para que possam assistir o processo. Espero que gostem e que me mandem sugestões de melhoria, críticas construtivas ou elegios.</p>
+
+
+
+https://user-images.githubusercontent.com/39839436/179249787-f4337a9f-6721-4189-84c0-3b0dad95a693.mp4
+
